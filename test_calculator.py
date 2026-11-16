@@ -1,5 +1,9 @@
-from calculator import add, multiply
+from calculator import add, multiply,divide
 
+
+def test_divide():
+    assert divide(10, 2) == 5
+    assert divide(9, 3) == 3
 
 def test_add():
     assert add(2, 3) == 5
