@@ -1,0 +1,13 @@
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tigran-python-cicd-calculator"
+version = "0.1.0"
+description = "A simple Python calculator"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+py-modules = ["calculator"]
